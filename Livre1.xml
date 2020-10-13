@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<livre>
+    <titre>XML SECOND EDITION</titre>
+    <auteurs>  
+        <auteur><Prenom> KEVIN </Prenom> <Nom>HOWARD GOLDBERG</Nom></auteur>
+        <auteur><Prenom>David </Prenom> <Nom>Van Ness</Nom></auteur>
+    
+    </auteurs>
+
+    <sections>
+        
+        <section >
+            <titre>Part 1 : XML</titre>
+            <chapitres>
+                <chapitre>
+                    <titre>Chap 1: Writing XML</titre>
+
+                    <paragraphes>
+                        <paragraphe>The XML specification defines how to write a document in XML format.</paragraphe>
+                        <paragraphe>Every custom markup language created using the XML specification must adhere to XML’s underlying grammar.</paragraphe>
+                    </paragraphes>
+                </chapitre>
+
+                <chapitre>
+                    <titre>Chap 2: An XML Sample</titre>
+                    <paragraphes>
+                        <paragraphe>XML documents, like HTML documents, are comprised of tags and data. </paragraphe>
+                        <paragraphe>Another big difference is that an XML document stores and describes that data; </paragraphe>
+                    </paragraphes>
+                </chapitre>
+            </chapitres>
+        </section>
+
+        <section>
+            <titre>Part 2: XSL</titre>
+            <chapitres>
+                <chapitre>
+                    <titre>Chap 1: XSLT</titre>
+                    <paragraphes>
+                        <paragraphe>It’s not uncommon to want to process a node or a set of nodes only if a certain condition is met.</paragraphe>
+                        <paragraphe> The condition is written as an expression. </paragraphe>
+                    </paragraphes>
+                </chapitre>
+
+                <chapitre>
+                    <titre>Chap 2: XPath Patterns and Expressions</titre>
+                    <paragraphes>
+                        <paragraphe>In the previous chapter, XSLT, you learned about creating and applying templates to transform XML documents. </paragraphe>
+                        <paragraphe>When you create a template, you use a pattern to specify the nodes that the template can be applied to. </paragraphe>
+                    </paragraphes>
+                </chapitre>
+            </chapitres>
+        </section>
+    </sections>
+</livre>

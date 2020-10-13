@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="technoType">
+    <xs:restriction base="xs:string">
+        <xs:enumearation value="Java" />
+        <xs:enumearation value="XML" />
+        <xs:enumearation value="Autre" />
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="listType">
+    <xs:list itemType="xs:int">
+    </xs:list>
+</xs:simpleType>
+
+<xs:simpleType name="telType">
+    <xs:restriction base="listType">
+        <xs:length value="5" />
+    <xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="mailType">
+    <xs:restriction  base="xs:string"/>
+</xs:simpleType>
+
+<xs:complexType name ="numeroType">
+    <xs:sequence>
+        <xs:element name="contact" type="contactType" max0ccurs="unvounded" />
+    </xs:sequence>
+<xs:complexType name ="contactType">
+    <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="telephone" type="xs:string" min0ccurs="0"/>
+         <xs:element name="email" type="xs:string" max0ccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="titre" type="xs:string" use="required" />
+    <xs:attribute name="techno" type="xs:string" use="optional" />
+</xs:complexType>
+
+<xs:element name="numeros" type="numerosType"/>
+</xs:schema>

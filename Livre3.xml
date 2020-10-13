@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<p1:livre titre="XML SECOND EDITION" xmlns:p1="http://www.masociete.com" xmlns:p2="http://www.monentreprise.com">
+    <p1:auteurs>  
+        <p1:auteur Prenom ="KEVIN" Nom="HOWARD GOLDBERG"/>
+        <p1:auteur Prenom="David" Nom="Van Ness"/>
+    
+    </p1:auteurs>
+
+    <p1:sections>
+        
+        <p1:section titre= "Part 1 : XML" >
+            <p1:chapitre titre="Chap 1: Writing XML">
+                <p1:paragraphe>The XML specification defines how to write a document in XML format.</p1:paragraphe>
+                <p1:paragraphe>Every custom markup language created using the XML specification must adhere to XML’s underlying grammar.</p1:paragraphe>
+            </p1:chapitre>
+
+            <p1:chapitre titre="Chap 2: An XML Sample">
+                <p1:paragraphe>XML documents, like HTML documents, are comprised of tags and data. </p1:paragraphe>
+                <p1:paragraphe>Another big difference is that an XML document stores and describes that data; </p1:paragraphe>
+            </p1:chapitre>
+        </p1:section>
+
+        <p2:section titre="Part 2: XSL">
+            <p2:chapitre titre="Chap 1: XSLT">
+                <p2:paragraphe>It’s not uncommon to want to process a node or a set of nodes only if a certain condition is met.</p2:paragraphe>
+                <p2:paragraphe> The condition is written as an expression. </p2:paragraphe>
+            </p2:chapitre>
+
+            <p2:chapitre titre="Chap 2: XPath Patterns and Expressions">
+                <p2:paragraphe>In the previous chapter, XSLT, you learned about creating and applying templates to transform XML documents. </p2:paragraphe>
+                <paragraphe>When you create a template, you use a pattern to specify the nodes that the template can be applied to. </paragraphe>
+            </p2:chapitre>
+        </p2:section>
+    </p1:sections>
+</p1:livre>

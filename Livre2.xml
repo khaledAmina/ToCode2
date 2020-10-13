@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<livre titre="XML SECOND EDITION">
+    <auteurs>  
+        <auteur Prenom ="KEVIN" Nom="HOWARD GOLDBERG"/>
+        <auteur Prenom="David" Nom="Van Ness"/>
+    
+    </auteurs>
+
+    <sections>
+        
+        <section titre= "Part 1 : XML" >
+            <chapitre titre="Chap 1: Writing XML">
+                <paragraphe>The XML specification defines how to write a document in XML format.</paragraphe>
+                <paragraphe>Every custom markup language created using the XML specification must adhere to XML’s underlying grammar.</paragraphe>
+            </chapitre>
+
+            <chapitre titre="Chap 2: An XML Sample">
+                <paragraphe>XML documents, like HTML documents, are comprised of tags and data. </paragraphe>
+                <paragraphe>Another big difference is that an XML document stores and describes that data; </paragraphe>
+            </chapitre>
+        </section>
+
+        <section titre="Part 2: XSL">
+            <chapitre titre="Chap 1: XSLT">
+                <paragraphe>It’s not uncommon to want to process a node or a set of nodes only if a certain condition is met.</paragraphe>
+                <paragraphe> The condition is written as an expression. </paragraphe>
+            </chapitre>
+
+            <chapitre titre="Chap 2: XPath Patterns and Expressions">
+                <paragraphe>In the previous chapter, XSLT, you learned about creating and applying templates to transform XML documents. </paragraphe>
+                <paragraphe>When you create a template, you use a pattern to specify the nodes that the template can be applied to. </paragraphe>
+            </chapitre>
+        </section>
+    </sections>
+</livre>
